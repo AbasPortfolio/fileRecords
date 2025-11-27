@@ -4,8 +4,9 @@
   },
   "main": "server.js",
   "scripts": {
-    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "build": "npm install --prefix app-backend && npm install --prefix app-frontend && npm run build --prefix app-frontend",
     "start": "node server.js"
   }
 }
+
 
